@@ -1,9 +1,8 @@
 # Path to the training and validation datasets
-train: "C:/Users/river/OneDrive/Documents/#EEE488/DendriteImages/Train"  # e.g., "C:/datasets/dendrites/train"
-val: "C:/Users/river/OneDrive/Documents/#EEE488/DendriteImages/Val"      # e.g., "C:/datasets/dendrites/val"
+train: "C:/Users/river/488/FindDendrites/Images/Train"  # e.g., "C:/datasets/dendrites/train"
+val: "C:/Users/river/488/FindDendrites/Images/Val"      # e.g., "C:/datasets/dendrites/val"
+
+nc: 1
 
 # List of class names (ensure the indices match your annotations)
-names:
-  0: dendrite_type1
-  1: dendrite_type2
-  2: dendrite_type3
+names: [ "Dendrite" ]
