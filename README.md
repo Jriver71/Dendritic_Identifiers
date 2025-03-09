@@ -1,15 +1,23 @@
 ######################################################################
 
 Pip commands you will need after installing Python and Pip
+
 You will not be able to run some of the scripts without doing these
 
 pip install ultralytics
+
 pip install opencv-python
+
 pip install numpy
+
 pip install matplotlib
+
 pip install segment-anything
+
 pip install torch torchvision torchaudio
+
 pip install scikit-learn
+
 pip install pillow pillow-heif
 
 #####################################################################
